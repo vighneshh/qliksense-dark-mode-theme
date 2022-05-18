@@ -1,0 +1,159 @@
+/* 
+	  Qlik Sense Dark Mode Theme By Vighnesh Gawad
+	  Last Updated: 18-05-2022
+*/
+
+
+.qvt-sheet {
+    background: #000 !important; 
+}
+/* font color for values in table, pivot table and filter*/
+.qv-st .qv-st-value .qv-st-value-overflow, .qv-pt .cell .value, .qv-listbox{
+	color: #ddd !important;
+}
+/* font color for header in table, pivot table*/
+.qv-st-header-cell, .qv-pt .cell.header{
+	font-weight: bold;
+	color: #eee !important;
+}
+/* Hover menu buttons */
+.qv-object-nav >button.border, .sel-toolbar-list{
+    background: #191c24 !important;
+    color: #fff !important;
+}
+/* filter alternative and  right click context menu */
+.qv-contextmenu .lui-list,.qv-contextmenu .lui-list__item .lui-list__text,.qv-contextmenu .lui-list__item, .qv-listbox li.serverAlternative{
+	background: #191c24 !important;
+    color: #fff !important;
+}
+
+
+ /*story telling*/
+.qv-panel-story, .qv-panel-story .lui-icon, #qv-storytelling.qv-panel-story .qv-panel-stage .qv-panel-content{
+	 background: #000 !important;
+	border-bottom: 1px solid #fff;
+    color: #fff !important;
+}
+
+ /*selection search and bookmarks search and list title color*/
+.qv-global-selections .qv-gs-header .qv-gs-searchfield, .qs-bookmarks .bm-title .bm-tc, .qs-bookmarks .lui-search{
+	background: #191c24 !important;
+    color: #fff !important;
+
+}
+ /*app details text area and create new sheet text area*/
+ .app-details-content, .app-details-wrapper .lui-textarea, .app-details-wrapper .lui-input, .e-dw .lui-textarea, .e-dw .lui-input{
+	background: #191c24 !important;
+    color: #fff !important;
+
+}
+
+ /*Insights Page*/
+.qv-cao-search, .qv-cao .qv-cao-insights-header .lui-button,  .qv-cao .qv-cao-section-header .lui-button, 
+.qv-cao .qv-cao-section-result-item .lui-button,  .qv-cao-search .lui-search,
+
+.qv-cao-field-picker .field-picker .tabs,
+.qv-cao-field-picker .field-picker .tab-content .field-item-header.selected,
+.qv-cao-field-picker .field-picker .tab-content .lui-search,
+
+.qv-cao-search .lui-search .lui-search__search-icon ,
+.qv-cao-field-picker .lui-search .lui-search__search-icon,
+.qv-cao-field-picker .lui-list .lui-list__item{
+	background: #191c24 !important;
+    color: #fff !important;
+}
+.qv-cao .qv-cao-section-result-item .result-item-footer, .qv-cao .qv-cao-section-result-item .cao-insight .cao-insight-container{
+
+	background: #000 !important;
+    color: #fff !important;
+}
+
+
+
+ /*Selection bar and selection Page*/
+.qv-panel-current-selections .qv-selections-pager.qv-selections-pager,
+.bright.qv-panel-current-selections .no-selection,
+ .bright.qv-panel-current-selections .buttons-end .qv-subtoolbar-button.active,
+ .bright.qv-panel-current-selections .wrap,
+ .bright.qv-panel-current-selections .item{
+    background: #191c24 !important;
+    color: #fff !important;
+}
+
+ .bright.qv-panel-current-selections .no-selection,
+ .qv-panel-current-selections .qv-selections-pager.qv-selections-pager{
+    border-bottom: 1px solid #fff;
+
+}
+.qv-panel-current-selections .buttons-end .qv-subtoolbar-button.qv-subtoolbar-button,.qv-panel-current-selections .lui-icon{
+	color: #fff !important;
+}
+
+.qv-global-selections.toolbar {
+	background-color: #000 !important;
+	
+}
+
+.qv-global-selections .qv-gs-header h2,
+.qv-global-selections .qv-gs-section.qv-gs-top .qv-gs-no-selections .qv-gs-no-selections-content .qv-qs-no-selections-body,
+.qv-global-selections .qv-gs-section.qv-gs-top .qv-gs-no-selections .qv-gs-no-selections-content .qv-qs-no-selections-title{
+	color: #fff !important;
+}
+
+/*BookMark and Sheet Pop up windows*/
+.av-container, .av-toolbar-container{
+	background-color: #000 !important;
+	
+}
+.av-container .header,.qv-list .qv-text, .av-toolbar-container, .av-button-div .lui-button, .av-toolbar-container .lui-button
+{
+	color: #fff !important;
+}
+
+ .av-container .q-ellipsis, .qv-grid .qv-details-wrap{
+    background: #191c24 !important;
+    color: #fff !important;
+}
+
+/* Dialog window pop up*/
+ .ao-dialog,.ao-dialog .lui-dialog__footer .lui-button
+ , .ao-dialog--body, .ao-dialog--footer.lui-dialog__footer.ng-scope
+,  .ao-dialog .lui-dialog__header{
+	background: #000 !important;
+	border-bottom: 1px solid #fff;
+    color: #fff !important;
+
+}
+
+.ao-contextmenu--body .lui-list .lui-list__item{
+	background: #191c24 !important;
+    color: #fff !important;
+}
+
+ /*Upper Toolbars*/
+ .qs-ao-toolbar, .qs-toolbar, .tab-menu-button .double-label-tab, 
+  .qs-toolbar__center .qs-toolbar__tabset--icons .qs-toolbar__tabset--tab,
+  .qs-toolbar .lui-list .lui-list__item
+ {
+    background: #191c24 !important;
+    color: #fff !important;
+}
+.qs-ao-toolbar, .qs-toolbar {
+    border-bottom: 1px solid #fff;
+
+}
+
+.icon-container:hover, .icon-container.active:hover,.tab-container:hover, .tab-dropdown-icon:hover{
+  background: #191c24 !important;
+    color: #fff !important;
+}
+
+
+ .qs-toolbar .lui-button,.qs-toolbar .lui-fade-button, .qs-toolbar .lui-icon,
+  .qs-ao-toolbar .lui-button,.qs-ao-toolbar .lui-fade-button, .qs-ao-toolbar .lui-icon{
+	color: #fff !important;
+}
+
+
+
+
